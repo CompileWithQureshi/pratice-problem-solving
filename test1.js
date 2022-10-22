@@ -34,5 +34,11 @@ greetStudents(names)
 
 /* 2. In English language some words come more often than others to a sentence. Write a function called mostFrequentWords it takes a sentence or a paragraph as a parameter and return an array of objects. The object key is the word and its number of occurrence is the value. What are the ten most frequent words in a sentence or a paragraph of an English language.*/
 
+const arr = ['geeks', 'for', 'geeks', 'a', 'portal', 'to', 'learn', 'can', 'be', 'computer']
 
-
+const mostFrequentWords = () => {
+    for (let i = 0; i <= arr.length; i++) {
+        console.log(arr[i]);
+    }
+}
+mostFrequentWords(arr)
